@@ -1,0 +1,7 @@
+This is a recent assingment for my artificial intelligence paper
+I had to create an expert system to diagnose a simple tech related issue
+-in this case a phone not turning on
+
+To run this you need to use clips
+
+-Submitted on sunday 20th, have not yet received marks.
