@@ -1,0 +1,6 @@
+Assignment to develop XML schemas and Make custom svg's
+
+assignment specs here
+https://www.cs.auckland.ac.nz/courses/compsci335s2c/lectures/mano/a12/
+
+- Achieved 100%

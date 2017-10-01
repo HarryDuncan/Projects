@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>La Boutique Cassée</title>
+	<script  type="text/javascript" src ="hdun445.js"></script>
+	<link rel="stylesheet" href="hdun445.css">
+</head>
+
+<body>
+
+<!--Main Nav and search bar -->
+<div class= "MainNav">
+<img src="Logo.svg" id="logo">
+
+<h1><strong>La Boutique Cassée </strong></h1>
+
+<input type="text" id='search' name="search" placeholder="Search products..."  onKeyPress=searchItem(this.value)>
+ <ul>
+ 
+  <li><a href="#" onclick="showBooks();" >Buy Books</a></li>
+  <li><a href="#" onclick="showBlueray();" >Buy Blue Ray</a></li>
+  <li ><a href="#" onclick="showComments();">Comments</a></li>  
+ <li><a href="#" onclick="showUserReg();" >User Registration</a></li>
+</ul>	
+</div>
+
+<!-- (1) viewing the items being sold (books and blurays)-->
+
+<div id = 'booksSection'>
+	<h2>Books</h2>
+	<table id="booksTab"></table>
+</div>
+<div id = 'separator'>
+</div>
+
+<div id='blueraySection'>
+	<h3>Blue-Ray</h3>
+	<table id='brTab'></table>
+</div>
+
+</div>
+
+<div id = 'comments'>
+<input type="text" id='commentBar' name="userComment" placeholder="Leave a comment">
+
+<input type="text" id='nameBar' name="userName" placeholder="Leave your name">
+
+<input type ="button"  value = 'Submit' id='saveComment' onclick="postComment(document.getElementById('commentBar').value,document.getElementById('nameBar').value)"/>
+<iframe id='commentDisp' src='http://redsox.uoa.auckland.ac.nz/BC/Open/Service.svc/htmlcomments'>
+</iframe>
+</div>
+
+
+<div id = 'userReg'>
+<input type="text" id ='userName'name="UserReg" placeholder="Create your username">
+<input type="text" id ='userPass'name="UserPass" placeholder="Create your password">
+<input type="text" id ='userAddress'name="UserAddress" placeholder="Enter your address">
+<input type ="button"  value = 'register' id='registerUser' onclick="registerUser(document.getElementById('userName').value,document.getElementById('userPass').value,document.getElementById('userAddress').value);"/>
+<h2>Please Login</h2>
+
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,379 @@
+html { overflow-y: scroll; overflow-x:hidden; }
+body {
+	min-width:1000px;
+	margin:0;
+	padding:0;
+}
+
+
+.MainNav {
+    position:fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	top:0px;
+    height:15%;
+    width:100%;
+    min-width:1000px;
+    z-index:2;
+    background-color:#152f59;
+       
+}
+#logo{
+	height:100%;
+	width:auto;
+	max-width:200px;
+
+}
+
+.MainNav h1{
+	color: white;
+	font: 6vh arial, sans-serif;
+	letter-spacing:2px;
+	position:absolute;
+	left:8%;
+	top:10%;
+	line-height:80%;
+}
+
+.MainNav.Scroll{
+	background-color:#152f59;
+	opacity: 0.7;
+}
+.MainNav.Scroll li{
+	height:12%;
+}
+.MainNav.Scroll ul li hover{
+	background-color:#181819;
+}
+
+
+/* all of the Css for the Main Nav bar */
+
+.MainNav ul{
+	float:right;
+        cursor:pointer;
+	margin:0;
+	padding:0;
+        
+}
+.MainNav a {
+    color: white;
+    display: block;
+    font: 2vh arial,sans-serif;
+    color: white;
+    padding: 5vh 0 0 0;
+    margin:2vh;
+    text-decoration: none;
+    text-align: left;
+    font-weight:bold;
+    
+}
+
+.MainNav li{
+	list-style-type: none;
+	float:left;
+}
+
+.MainNav ul li:hover{
+	color:#19218e;
+	opacity:0.8;
+}
+input[type=text] {
+	position:absolute;
+	float: left;
+	top:48%;
+	left:40%;
+    width: 20%;
+}
+
+
+
+/*CSS for the shop div */
+#Shop{
+	position: relative;
+	clear:both;
+	top:10%;
+	height:auto;
+	width:100vw;
+}
+
+
+/*books Section */
+
+#booksSection{
+	
+	position:relative;
+	clear:both;
+	height:auto;
+	width:90%;
+	margin: 0 auto;
+	margin-bottom:5%;
+	margin-top:15%;
+	overflow:hidden;
+
+}
+
+#booksSection h2{
+	font:9vh arial, sans-serif;
+	margin:0 auto;
+	text-align:center;
+	}
+#booksTab{
+	position:relative;
+	top:30%;
+	overflow:hidden;
+}
+
+.title{
+	display:none;
+}
+#booksTab .product{
+	position:relative;
+	float:left;
+	left:3%;
+	top:20%;
+	height: 45vh;
+	max-height:263px;
+    width: 25vw;
+    display: inline-block;
+	margin:3vh;
+	margin-top:5%;
+	margin-bottom:10vw;
+	border:3px black solid;
+	border-radius:5px;
+	padding:0px;
+}
+td button{
+	position:absolute;
+	height:15%;
+	position:absolute;
+	top:50%;
+	right:2%;
+	width:35%;
+	float:left;
+	background-color:white;
+	border: black 2px solid;
+	border-radius: 5px;
+	cursor:pointer;
+
+}
+#booksTab .product .displayPic td{
+	margin:0px;
+	padding:0px;
+	height: 45vh;
+    width: 25vw;
+	border:red 29x solid;
+	background-color:red;
+}
+#booksTab .displayPic img{
+	display:block;
+	height: 45vh;
+	max-height:260px;
+    width: 100%;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+}
+#booksTab td{
+	overflow:hidden;
+}
+.authorName{
+position:absolute;
+	float:right;
+	top:120%;
+	font:1vw arial, sans-serif;
+	clear:both;
+	overflow:hidden;
+}
+
+.bookTitle{
+	position:absolute;
+	top:100%;
+	font:2vw arial, sans-serif;
+	overflow:hidden
+	clear:both;
+}
+
+.noShow{
+	display:none;
+}
+
+
+/* BlueRay Section */
+#blueraySection{
+	position:relative;
+	clear:both;
+	height:auto;
+	width:90%;
+	margin: 0 auto;
+	margin-top:10%;
+	display:none;
+
+}
+
+h3{
+	font:9vh arial, sans-serif;
+	margin:0 auto;
+	text-align:center;
+}
+/* The Table for the blue ray */
+
+
+#brTab{
+	position:relative;
+	margin-top:5%;
+	overflow:hidden;
+}
+.title{
+	display:none;
+}
+#brTab .product{
+	position:relative;
+	float:left;
+	left:3%;
+	top:20%;
+	height: 45vh;
+	max-height:263px;
+    width: 25vw;
+    display: inline-block;
+	margin:3vh;
+	margin-top:5%;
+	margin-bottom:10vw;
+	border:3px black solid;
+	border-radius:5px;
+	padding:0px;
+}
+#brTab .product .displayPic td{
+	margin:0px;
+	padding:0px;
+	height: 45vh;
+    width: 25vw;
+	border:red 29x solid;
+	background-color:red;
+}
+#brTab .displayPic img{
+	display:block;
+	height: 45vh;
+	max-height:260px;
+    width: 100%;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+}
+#noShow{
+	display:none;
+}
+#brTab td{
+	overflow:hidden;
+}
+
+.brTitle{
+	position:absolute;
+	top:100%;
+	font:150% arial, sans-serif;
+	overflow:hidden
+}
+
+.noShow{
+	display:none;
+}
+
+
+
+#separator{
+	position: relative;
+	height:5px;
+	width:100%;
+	background-color: gray;
+	display:inline;
+}
+
+
+/* comments section */
+#comments{
+	display:none;
+}
+#commentDisp{
+	position:absolute;
+	bottom:0%;
+	clear:both;
+	height:50%;
+	width:100%;
+	margin:0 auto;
+	border:3px solid black;
+	text-align:center;
+}
+#commentBar{
+	position:absolute;
+	top:20%;
+	margin:0 auto;
+	height:8%;
+}
+#nameBar{
+	position:absolute;
+	top:30%;
+	margin:0 auto;
+	height:8%;
+}
+#saveComment{
+	position:absolute;
+	top:25%;
+	left:20%;
+	height:8%;
+	width:10%;
+	font: 4vh arial, sans-serif;
+	background:white;
+	color:black;
+	border:2px black solid;
+	cursor:pointer;
+	border-radius:5px;
+}
+
+#saveComment: hover{
+	background:gray;
+}
+
+/* User Registration/Login page Css */
+#userReg{
+	display:none;
+}
+#userName{
+	position:absolute;
+	top:20%;
+	float:left;
+	height:8%;
+	margin-bottom:10%;
+}
+#userPass{
+	position:absolute;
+	top:30%;
+	float:right;
+	height:8%;
+	margin-bottom:10%;
+}
+#userAddress{
+	position:absolute;
+	top:40%;
+	margin-bottom:10%;
+	float:right;
+	height:15%;
+}
+#registerUser{
+	position:absolute;
+	top:35%;
+	left:20%;
+	height:8%;
+	width:10%;
+	font: 4vh arial, sans-serif;
+	background:white;
+	color:black;
+	border:2px black solid;
+	cursor:pointer;
+	border-radius:5px;
+	margin:0 auto;
+
+}
+
+
+

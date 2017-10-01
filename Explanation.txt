@@ -1,0 +1,13 @@
+Create a website for La Boutique cassee, a book/bluray online store
+
+Main outcomes was to use JSON objects to communicate with servers.
+-Due to this being an assignment I copy pasted code for the html and css
+from my own personal website (which I hand coded) do acomplish the task quickly (hence why parts are similar to my portfolio)
+
+-If request do not send/not work it is likely that the university has shut down the servers.
+
+
+The assignment specs are here
+https://www.cs.auckland.ac.nz/courses/compsci335s2c/lectures/mano/a11/
+
+Achieved 100%
